@@ -40,7 +40,7 @@ Security Group with rules for:
 . Auto-generated SSH Key Pair
 
 
- ##Compute & Storage
+ ## Compute & Storage
 
 . EC2 Instance: t3.medium with Amazon Linux 2
 
@@ -49,7 +49,7 @@ Security Group with rules for:
 . EBS Data Volume: 20GB gp3 encrypted for Jenkins data
 
 
- ##Backup & Recovery
+ ## Backup & Recovery
 
 AWS Backup Vault for EBS volume backups
 
@@ -58,7 +58,7 @@ Daily Backup Schedule at 2 AM
 7-day Retention Policy
 
 
- ##🔧 Configuration
+ ## 🔧 Configuration
 
 Jenkins Configuration
 
@@ -71,7 +71,7 @@ Persistent data on mounted EBS volume
 Docker socket mounted for Docker-in-Docker
 
 
- ##user Data Script
+ ## user Data Script
 The user-data.sh script automatically:
 
 Updates system packages
@@ -84,7 +84,7 @@ Deploys Jenkins container
 
 Configures automatic startup
 
- ##📊 Outputs
+ ## 📊 Outputs
 
 
 
