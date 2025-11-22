@@ -28,7 +28,7 @@ VPC: 10.0.0.0/16
 
 
 
- ##Security
+ ## Security
 Security Group with rules for:
 
 . SSH (port 22)
