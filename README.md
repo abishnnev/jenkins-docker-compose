@@ -14,7 +14,16 @@ jenkins-docker-compose/
 ├── outputs.tf              # Output variables
 ├── variables.tf            # Input variables
 ├── user-data.sh           # EC2 instance bootstrap script
+ ```
+## 🛠️ Infrastructure Components
+  Networking
+VPC: 10.0.0.0/16
 
+. Public Subnet: 10.0.1.0/24 in us-east-1a
+
+. Internet Gateway for internet access
+
+. Route Tables for network routing
 
 
 
