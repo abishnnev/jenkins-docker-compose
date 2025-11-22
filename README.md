@@ -16,7 +16,7 @@ jenkins-docker-compose/
 ├── user-data.sh           # EC2 instance bootstrap script
  ```
 ## 🛠️ Infrastructure Components
-  Networking
+  ### Networking
 VPC: 10.0.0.0/16
 
 . Public Subnet: 10.0.1.0/24 in us-east-1a
@@ -28,7 +28,7 @@ VPC: 10.0.0.0/16
 
 
 
- ## Security
+ ### Security
 Security Group with rules for:
 
 . SSH (port 22)
@@ -86,5 +86,12 @@ Configures automatic startup
 
  ## 📊 Outputs
 
+After successful deployment, Terraform will output:
+
+Jenkins URL: http://<elastic-ip>:8080
+
+Jenkins IP: Elastic IP address of the Jenkins server
+
+SSH Command: Pre-formatted command to SSH into the instance
 
 
