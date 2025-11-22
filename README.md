@@ -15,4 +15,5 @@ jenkins-docker-compose/
 ├── variables.tf            # Input variables
 ├── user-data.sh           # EC2 instance bootstrap script
 
-#
+
+## 🏗️ Overview
